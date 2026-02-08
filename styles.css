@@ -24,7 +24,7 @@ body {
 
   /* layered background: color + subtle paper texture */
   background-image: 
-    url('handmade-paper.png'); /* the grain on top */
+    url('white-wall-background.jpg'); /* the grain on top */
   background-repeat: repeat;
   background-position: top left;
   background-size: auto;
