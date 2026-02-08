@@ -23,7 +23,7 @@ body {
   background-color: var(--paper);
 
   /* subtle paper texture */
-  background-image: url('./handmade-paper.png');
+  background-image: url('handmade-paper.png');
   background-repeat: repeat;          /* tiles the image */
   background-position: top left;       /* start at top left */
   background-size: auto;               /* use the original pattern size */
