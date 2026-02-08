@@ -17,9 +17,7 @@ body {
   font-family: "Crimson Pro", serif;
   font-size: 1.05rem;
   line-height: 1.65;
-  color: var(--ink);
-  
-  /* background paper color (fallback) */
+  color: red
   background-color: red;
 
 }
