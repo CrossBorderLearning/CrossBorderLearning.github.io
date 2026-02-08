@@ -1,0 +1,18 @@
+/* Simple, responsive, neutral styles */
+:root{--max:1100px;font-family:system-ui,-apple-system,Segoe UI,Roboto,"Helvetica Neue",Arial;}
+*{box-sizing:border-box}body{margin:0;font-family:var(--font,system-ui);line-height:1.45;color:#222}
+.wrap{max-width:var(--max);margin:0 auto;padding:2rem}
+.site-header{background:#f7f7f7;border-bottom:1px solid #e6e6e6}
+.site-header .wrap{display:flex;align-items:center;justify-content:space-between}
+.brand{margin:0;font-size:1.05rem}
+nav a{margin-left:1rem;text-decoration:none;color:#333}
+.hero{display:flex;gap:1.5rem;align-items:center}
+.hero-image img{max-width:320px;width:100%;height:auto;border-radius:8px}
+.cta .button{display:inline-block;padding:.6rem 1rem;background:#0b6efd;color:#fff;text-decoration:none;border-radius:6px}
+.cards{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:1rem}
+.card{padding:1rem;border:1px solid #ececec;border-radius:8px;background:#fff}
+.contact form{display:grid;gap:.5rem;max-width:480px}
+.contact input,.contact textarea{width:100%;padding:.5rem;border:1px solid #ddd;border-radius:6px}
+.contact button{padding:.6rem 1rem;border:none;background:#0b6efd;color:#fff;border-radius:6px;cursor:pointer}
+.site-footer{background:#fafafa;border-top:1px solid #eee;padding:1rem;text-align:center}
+@media(max-width:700px){.hero{flex-direction:column-reverse}.hero-image img{max-width:100%}}
