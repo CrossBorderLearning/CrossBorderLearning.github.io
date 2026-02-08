@@ -18,8 +18,17 @@ body {
   font-size: 1.05rem;
   line-height: 1.65;
   color: var(--ink);
-  background: var(--paper);
+  
+  /* background paper color (fallback) */
+  background-color: var(--paper);
+
+  /* subtle paper texture */
+  background-image: url('./images/handmade-paper.png');
+  background-repeat: repeat;          /* tiles the image */
+  background-position: top left;       /* start at top left */
+  background-size: auto;               /* use the original pattern size */
 }
+
 
 .wrap {
   max-width: var(--max);
