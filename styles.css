@@ -17,11 +17,17 @@ body {
   font-family: "Crimson Pro", serif;
   font-size: 1.05rem;
   line-height: 1.65;
-  color: red
-  background-color: red;
+  color: var(--ink);
 
+  /* fallback paper color */
+  background-color: var(--paper);
+
+  /* paper texture */
+  background-image: url('handmade-paper.png'); /* same folder as CSS */
+  background-repeat: repeat;
+  background-position: top left;
+  background-size: auto;
 }
-
 
 .wrap {
   max-width: var(--max);
