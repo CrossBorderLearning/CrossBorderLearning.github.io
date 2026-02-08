@@ -19,15 +19,20 @@ body {
   line-height: 1.65;
   color: var(--ink);
 
-  /* fallback paper color */
+  /* warm fallback paper color */
   background-color: var(--paper);
 
-  /* paper texture */
-  background-image: url('handmade-paper.png'); /* same folder as CSS */
+  /* layered background: color + subtle paper texture */
+  background-image: 
+    url('handmade-paper.png'); /* the grain on top */
   background-repeat: repeat;
   background-position: top left;
   background-size: auto;
+
+  /* soften the texture a bit */
+  opacity: 0.95;
 }
+
 
 .wrap {
   max-width: var(--max);
